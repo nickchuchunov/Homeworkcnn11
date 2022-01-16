@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "d2PyyWUMN6C5tQI8TMNqYbElk+fYXLZ/2s7RZFH+a0S56CW1ltIZKRn9MvSiaAkzR8mDGb8t5jmAURmB3xR7wg==",
+  "success": true,
+  "projectFilePath": "H:\\Homeworkcnn11\\SecureDevelopment_1\\SecureDevelopment_1\\SecureDevelopment_1\\SecureDevelopment_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chuch\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\chuch\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\chuch\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
+    "C:\\Users\\chuch\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\chuch\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\chuch\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\chuch\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
