@@ -8,7 +8,7 @@ namespace SecureDevelopment_1
     public class BankCardService :  IBankCard 
     {
 
-      private DatabaseContext databaseContext;
+      internal DatabaseContext databaseContext;
 
 
         /// <summary>

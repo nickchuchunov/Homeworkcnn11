@@ -8,6 +8,8 @@
         public int BankCardContractId { get; set;}
         public int AccountNumber { get; set; }
         public decimal AmounfOfFunds { get; set; }
+        public string Login { get; set; }
+        public string Password { get; set; }
 
     }
 }

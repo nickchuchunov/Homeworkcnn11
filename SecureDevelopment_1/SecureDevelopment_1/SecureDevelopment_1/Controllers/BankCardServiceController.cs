@@ -1,14 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Authorization;
 
 namespace SecureDevelopment_1
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize(Policy = "UserAuthentication")] // добавление атрибута авторизации.
     public class BankCardServiceController : ControllerBase
     {
-        
 
+        
         private readonly ILogger<BankCardServiceController> _logger;
         private readonly BankCardService bankCardService;
 
@@ -39,7 +40,7 @@ namespace SecureDevelopment_1
 
 
 
-        [HttpPost(Name = "Delete")]
+        [HttpPut(Name = "Delete")]
         void Delete([FromQuery] int accountNumber)
         {
             bankCardService.Delete(accountNumber);
@@ -48,7 +49,7 @@ namespace SecureDevelopment_1
         }
 
 
-        [HttpPost(Name = "Update")]
+        [HttpPut(Name = "Update")]
         void Update([FromQuery]  int BankCardContractId, [FromQuery] int AccountNumber, [FromQuery] decimal AmounfOfFunds)
         {
             BankCardContract bankCardContract = new BankCardContract() { BankCardContractId= BankCardContractId, AccountNumber = AccountNumber, AmounfOfFunds = AmounfOfFunds };
