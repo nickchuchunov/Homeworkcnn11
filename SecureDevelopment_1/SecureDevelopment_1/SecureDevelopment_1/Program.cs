@@ -38,7 +38,8 @@ if (app.Environment.IsDevelopment())
     {
         
         app.UseSwagger(); // включаем ПО промежуточного слоя Swagger
-        app.UseSwaggerUI(); // включаем ПО промежуточного слоя Swagger
+    app.UseSwaggerUI();
+        // включаем ПО промежуточного слоя Swagger
 
     }
 

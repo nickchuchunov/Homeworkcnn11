@@ -12,6 +12,7 @@
     "SecureDevelopment_1": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "controller/Create",
       "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
