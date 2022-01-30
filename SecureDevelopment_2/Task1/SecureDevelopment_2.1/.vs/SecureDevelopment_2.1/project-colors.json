@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "44b5d482-3661-4c31-8e05-f6b87885bcf9": {
+      "ProjectGuid": "44b5d482-3661-4c31-8e05-f6b87885bcf9",
+      "DisplayName": "ClassLibrary1",
+      "ColorIndex": 0
+    },
+    "d25dcaba-be0e-4400-ba89-8f7ee3348055": {
+      "ProjectGuid": "d25dcaba-be0e-4400-ba89-8f7ee3348055",
+      "DisplayName": "SecureDevelopment_2.1",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

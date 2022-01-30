@@ -1,0 +1,14 @@
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0-windows\ClassLibrary1.csproj.AssemblyReference.cache
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0-windows\ClassLibrary1.Properties.Resources.resources
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0-windows\ClassLibrary1.csproj.GenerateResource.cache
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0-windows\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0-windows\ClassLibrary1.AssemblyInfoInputs.cache
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0-windows\ClassLibrary1.AssemblyInfo.cs
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0-windows\ClassLibrary1.csproj.CoreCompileInputs.cache
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\Сборка\Debug\net6.0-windows\ClassLibrary1.deps.json
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\Сборка\Debug\net6.0-windows\ClassLibrary1.dll
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\Сборка\Debug\net6.0-windows\ref\ClassLibrary1.dll
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\Сборка\Debug\net6.0-windows\ClassLibrary1.pdb
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0-windows\ClassLibrary1.dll
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0-windows\ref\ClassLibrary1.dll
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0-windows\ClassLibrary1.pdb

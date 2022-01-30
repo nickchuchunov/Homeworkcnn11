@@ -1,0 +1,12 @@
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\bin\Debug\net6.0\ClassLibrary1.deps.json
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\bin\Debug\net6.0\ClassLibrary1.dll
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\bin\Debug\net6.0\ref\ClassLibrary1.dll
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\bin\Debug\net6.0\ClassLibrary1.pdb
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.csproj.AssemblyReference.cache
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.AssemblyInfoInputs.cache
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.AssemblyInfo.cs
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.dll
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0\ref\ClassLibrary1.dll
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.pdb
