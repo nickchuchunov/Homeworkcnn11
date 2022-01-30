@@ -1,0 +1,7 @@
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\SecureDevelopment_2.1\obj\Debug\net6.0\SecureDevelopment_2.1.csproj.AssemblyReference.cache
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\SecureDevelopment_2.1\obj\Debug\net6.0\SecureDevelopment_2._1.Properties.Resources.resources
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\SecureDevelopment_2.1\obj\Debug\net6.0\SecureDevelopment_2.1.csproj.GenerateResource.cache
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\SecureDevelopment_2.1\obj\Debug\net6.0\SecureDevelopment_2.1.GeneratedMSBuildEditorConfig.editorconfig
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\SecureDevelopment_2.1\obj\Debug\net6.0\SecureDevelopment_2.1.AssemblyInfoInputs.cache
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\SecureDevelopment_2.1\obj\Debug\net6.0\SecureDevelopment_2.1.AssemblyInfo.cs
+H:\Homeworkcnn11\SecureDevelopment_2\Task1\SecureDevelopment_2.1\SecureDevelopment_2.1\obj\Debug\net6.0\SecureDevelopment_2.1.csproj.CoreCompileInputs.cache

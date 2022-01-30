@@ -1,16 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>SecureDevelopment_2._1</RootNamespace>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <SignAssembly>True</SignAssembly>
-    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-    <AssemblyOriginatorKeyFile>MyKey</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>H:\Homeworkcnn11\SecureDevelopment_2\Task1\Сборка\mykey.snk</AssemblyOriginatorKeyFile>
+    <AssemblyName>$(HelloWorld)</AssemblyName>
     <BaseOutputPath>H:\Homeworkcnn11\SecureDevelopment_2\Task1\Сборка</BaseOutputPath>
-    <AssemblyName>$(HelooWorld)</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Deterministic>False</Deterministic>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Deterministic>False</Deterministic>
   </PropertyGroup>
 
   <ItemGroup>
