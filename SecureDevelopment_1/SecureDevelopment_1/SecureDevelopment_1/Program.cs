@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using SecureDevelopment_1;
+
+using Microsoft.Extensions.Configuration;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -11,6 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<BankCardService>(); // сервисы для EntityFramework
 builder.Services.AddSingleton<BankCardServiceDapper>(); // сервисы для Dapper
 builder.Services.AddSwaggerGen(); // добавояем Swagger
+builder.Services.AddSingleton<ConfigurationFile>(); // Добавляем сервис файлов конфигурации
 
 builder.Services.AddSingleton<IAuthorizationHandler, UserHandlerAuthentication>(); // Регистрация обработчика
 
@@ -20,7 +23,8 @@ builder.Services.AddAuthorization(options =>
 });
 
 
-    var app = builder.Build();
+
+var app = builder.Build();
 
 app.UseSwagger(c =>
 {
@@ -42,8 +46,8 @@ if (app.Environment.IsDevelopment())
         // включаем ПО промежуточного слоя Swagger
 
     }
-
-    app.UseAuthorization();
+  
+    
 
     app.MapControllers();
 
