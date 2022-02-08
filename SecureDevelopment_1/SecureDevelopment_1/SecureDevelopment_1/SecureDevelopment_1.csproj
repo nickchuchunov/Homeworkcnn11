@@ -16,6 +16,8 @@
 
   <ItemGroup>
     <Folder Include="Authentication\AuthenticationHandler\" />
+    <Folder Include="Task_5\Pattern\Repository\" />
+    <Folder Include="Task_5\Pattern\UnitOfWork\" />
   </ItemGroup>
 
 </Project>
