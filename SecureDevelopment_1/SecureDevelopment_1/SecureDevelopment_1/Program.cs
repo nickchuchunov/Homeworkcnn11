@@ -1,12 +1,21 @@
 using Microsoft.AspNetCore.Authorization;
 using SecureDevelopment_1;
+using Microsoft.Extensions.Options;
+using MongoDB.Bson;
+using MongoDB.Driver;
 
 using Microsoft.Extensions.Configuration;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.Configure<BookstoreDatabaseSettings>(
+builder.Configuration.GetSection(nameof(BookstoreDatabaseSettings)));
+builder.Services.AddSingleton<IBookstoreDatabaseSettings>(sp => sp.GetRequiredService<IOptions<BookstoreDatabaseSettings>>().Value);
+builder.Services.AddSingleton<BookServices>();   
+
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -21,7 +30,7 @@ builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("UserAuthentication", policy => policy.Requirements.Add(new UserAuthentication("login", "password")));
 });
-
+builder.Services.AddControllers();
 
 
 var app = builder.Build();
