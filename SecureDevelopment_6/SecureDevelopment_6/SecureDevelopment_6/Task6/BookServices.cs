@@ -22,7 +22,7 @@ namespace SecureDevelopment_1
 
         public List<BookContract> Get() => databaseContext.Find(book => true).ToList();
 
-        public BookContract Get(int id) => databaseContext.Find<BookContract>(BookContract => BookContract.BookId == id).FirstOrDefault();
+        public BookContract Get(string id) => databaseContext.Find<BookContract>(BookContract => BookContract.BookId == id).FirstOrDefault();
 
         public BookContract Create(BookContract book)
         {
@@ -30,11 +30,11 @@ namespace SecureDevelopment_1
             return book;
         }
 
-        public void Update(int id, BookContract bookIn) => databaseContext.ReplaceOne(BookContract => BookContract.BookId == id, bookIn);
+        public void Update(string id, BookContract bookIn) => databaseContext.ReplaceOne(BookContract => BookContract.BookId == id, bookIn);
 
         public void Remove(BookContract bookIn) => databaseContext.DeleteOne(BookContract => BookContract.BookId == bookIn.BookId);
 
-        public void Remove(int id) => databaseContext.DeleteOne(BookContract => BookContract.BookId == id);
+        public void Remove(string id) => databaseContext.DeleteOne(BookContract => BookContract.BookId == id);
 
 
 

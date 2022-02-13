@@ -20,7 +20,7 @@ namespace SecureDevelopment_1.Controllers
 
         [HttpGet]
         [Route("Book/{id}")]
-        public ActionResult<BookContract> Get(int id)
+        public ActionResult<BookContract> Get(string id)
         {
             var book = bookServices.Get(id);
 
@@ -33,7 +33,7 @@ namespace SecureDevelopment_1.Controllers
         }
 
         /*
-         public int BookId { get; set; }
+         public string BookId { get; set; }
         [BsonElement("BookTitle")]
        public string BookTitle { get; set; }
 
@@ -72,7 +72,7 @@ namespace SecureDevelopment_1.Controllers
 
         [HttpPut]
         [Route("Update/{BookId}/{BookTitle}/{NumberPages}/{Language}/{Author}/{ISBN}/")]
-        public IActionResult Update([FromQuery] int BookId, [FromQuery] int NumberPages, [FromQuery] string Language, [FromQuery] string Author, [FromQuery] string ISBN)
+        public IActionResult Update([FromQuery] string BookId, [FromQuery] int NumberPages, [FromQuery] string Language, [FromQuery] string Author, [FromQuery] string ISBN)
         {
 
             BookContract book = new BookContract();
@@ -98,7 +98,7 @@ namespace SecureDevelopment_1.Controllers
 
         [HttpDelete]
         [Route("Delete/{BookId}")]
-        public IActionResult Delete(int BookId)
+        public IActionResult Delete(string BookId)
         {
             BookContract book = bookServices.Get(BookId);
 

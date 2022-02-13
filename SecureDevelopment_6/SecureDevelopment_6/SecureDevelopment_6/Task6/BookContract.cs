@@ -9,7 +9,7 @@ namespace SecureDevelopment_1
 
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-       public int? BookId { get; set; }
+       public string? BookId { get; set; }
         [BsonElement("BookTitle")]
        public string? BookTitle { get; set; }
 
