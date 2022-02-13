@@ -1,11 +1,14 @@
 ﻿namespace SecureDevelopment_1;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
-    public class ConfigurationFilesDatabase: ConfigurationFile
+public class ConfigurationFilesDatabase: ConfigurationFile
 {
+    public ConfigurationFilesDatabase(IServiceCollection services) : base(services)
+    {
+    }
 
-
-   void  onfigurationFilesDatabase()
+    void  onfigurationFilesDatabase()
     {
 
         DatabaseContext databaseContext = new DatabaseContext();
